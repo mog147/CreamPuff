@@ -1,10 +1,10 @@
-let token = PropertiesService.getScriptProperties().getProperty("0YIzryFXCkwiEPvNZV5kqiliKX7xc5gYi9n3YBYD2DhRhBNH8v5JCOzdKT9znU15HgJntrhARUjbRyiG+mdD2dAQwfQILq2MKBbowek/yHG96mJKSUZuxYoygB1ycKqoJOc4tuqKWdXAjEgGkvlwLwdB04t89/1O/w1cDnyilFU=");
+let token = PropertiesService.getScriptProperties().getProperty("LINE_MESSAGING_API");
 
 let url = 'https://api.line.me/v2/bot/message/reply';//応答メッセージ用のAPI URL
 
 
 /*人工知能*/
-let chatToken = PropertiesService.getScriptProperties().getProperty("fb7cd4cb1bba4f4d884a");
+let chatToken = PropertiesService.getScriptProperties().getProperty("CHAT_BOT_ACCESS_TOKEN");
 let chatURL = 'https://chatbot-api.userlocal.jp/api/chat';
 
 /*テスト用スクリプト*/
