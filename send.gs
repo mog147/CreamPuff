@@ -10,7 +10,6 @@ function doPost(e) {
   // ユーザーのメッセージを取得
   let userMessage = JSON.parse(e.postData.contents).events[0].message.text;
   //////
-  
   let text = msgs(userMessage);
 
   //////
@@ -52,3 +51,4 @@ function postTest() {
   console.log(fetch.getContentText());
 
 }
+

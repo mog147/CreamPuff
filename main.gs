@@ -1,5 +1,7 @@
 let token = PropertiesService.getScriptProperties().getProperty("LINE_MESSAGING_API");
+
 let url = 'https://api.line.me/v2/bot/message/reply';//応答メッセージ用のAPI URL
+
 
 /*人工知能*/
 let chatToken = PropertiesService.getScriptProperties().getProperty("CHAT_BOT_ACCESS_TOKEN");
