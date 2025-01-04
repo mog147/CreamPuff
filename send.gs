@@ -38,3 +38,17 @@ function doPost(e) {
   return ContentService.createTextOutput(JSON.stringify({'content': 'post ok'})).setMimeType(ContentService.MimeType.JSON);
   
 }
+
+function postTest() {
+  /*doPostテスト用*/
+
+  let url = "https://script.google.com/macros/s/AKfycbxInA7bvxEr6gGSYQOo2zxQ1O2gYUerMIW4RBC8hvb9jG_cUl3IMPP9AqH47q0vFgH_jA/exec";//動作確認前にWebアプリケーションにアクセスできるユーザーを誰でもアクセスできるようにしておく
+  
+  let params = {
+    method: "POST"
+  }
+
+  let fetch = UrlFetchApp.fetch(url, params);
+  console.log(fetch.getContentText());
+
+}
